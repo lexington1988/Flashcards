@@ -1,0 +1,250 @@
+﻿front,back
+How many completely openable sides in a carport ,2
+TB referring to carports and passageways,Tb 007
+Distance to opening under carport,1200mm
+Distance from lowest point of carport to top of flue ,200mm 
+Gas will only ignite in air between what % range,5-15%
+NG ignites at what temperature ,704°
+Relative density of NG,0.6
+Qualification for inspection of co,CMDDA1
+Igem document for responding to co alarm activation,IGEM G11 supplement 1
+Calculation for working out combustion ratio,Co (ppm) ÷ (co2 x 10000) 90 (ppm) ÷ (9.8 × 10000) = 0.0009
+Calculat co ratio Co = 65ppm Co2 = 9.7,65 ÷ 97000 = 0.0006
+Co 115 Co2 10.3 What is ratio,115 ÷ 103000 = 0.0011
+Maximum co ratio for new and older boilers,0.004 newer 0.008 older
+Maximum KW rating and pipe size we can work on ,70KW 35mm
+British standard referring to ventilation requirements for NG appliances under 70KW,BS5440 PART 2
+BS 5440 part 2,Ventilation for NG appliances under 70KW
+Adventitious ventilation,7KW
+Air vents for fires should not be .....,Closeable or have screens
+Size of air vent openings ,Between 5-10mm
+Minimum Air vent distance to r/s flue ,300mm
+Internal air vents for O/F appliance should never be to what room ,Bathroom
+What size Ventilation for o/f appliances (BS 5440 part 2),5cm2 per KW above 7KW
+What size air brick for DFE or f/l fire under 7KW,100cm2
+Compartment ventilation to outside for o/f appliances ,5cm2 high 10cm2 low
+What do you you do if you find existing lead pipe ,It is fine as long as its  ●In good condition  ●Well supported ●Adequate zize
+How far should gas pipe/meter be from electric meter/consumer unit ,150mm
+Pioe Distance to cables,25mm
+Low pressure gas meter is a maximum of ___mb,75mb
+Medium pressure meter is over ___ mb,75mb but not exceeding 2bar
+Perceptible movement when performing  TT with water guage,Max 0.25mb
+Perceptible movement when performing  TT with electronic guage,0.2mb
+Maximum permissable pressure loss on system with no appliances fitted,0mb
+Permissable pressure drop from aecv with appliance connected,8mb
+Maximum installation volume we can work on ,0.035m3
+Let by test pressure is,7-10mb
+TT pressure is,20-21mb 18-19mb on mp
+TT pressure for Medium pressure ,18-19mb
+Max fsd time for boiler,60 seconds
+Max fsd time for cooker and hob,60 seconds cooker 90 seconds hob
+What are the 4 main parts of an open flue,•primary flue •draught diverter •secondary flue •terminal
+Can o/f gave 90° bends,No maximum 45° 
+Minimum distance from draught diverter to 1st bend on open flue,600mm
+How to purge system under 0.02m3,Can be purged to building with no flame
+How to purge system over 0.02m3,Must be purged to flame
+Can an anaconda be used on meter outlet,Only if meter bracket is fitted. If no bracket pipework must be rigid for first 600mm
+Can open flue appliances be fitted in rooms for sleeping,Yes if under 14kw and have appropriate safety device that cuts off gas supply if levels get too high
+Flue dampers must be.....,Fixed in open position
+TB 118,Safe isolation
+What is safe isolation TB,TB118
+How to do wp on gas cooker,Connect manometer to injector and light all burners
+"TB018 glowworm cxi,hxi,said burner seals",Must be graphite not silicone. If damaged AR if silicone and not damaged arrange replacement 
+TB018,Glowworm burner seals
+TB 108,Ideal earth pins
+Ideal warth pins TB ,TB108
+TB 154,Glowworm explosive ignition
+Glowworm explosive ignition,TB154
+Can plume kit be used on a worcester through carport roof ,"Yes, but must extend minimum 300mm above carport roof"
+What regulation makes it an offence for a gas user to use an appliance deemed unsafe,Regulation 34
+Regulation 34,Makes it an offence fir a gas user to used an appliance marked as unsafe
+How would capping a prv be classified?,AR GIUSP 7.13  “An appliance with overheat protection and no effective pressure relief; or an appliance without overheat protection and no effective pressure relief.” The guidance provided in IGEM/G/11 is that this situation should be classified as At Risk
+Is a cooker without openable window AR?,Only if combustion ventilation hasn't been met Room size              ventilation req 10m3                      none
+What type of ventilation is an openable window for a gas cooker,Purge ventilation
+GAS COOKER combustion ventilation is ok but purge ventilation is not is classified as ....,NCS 
+Ventilation requirements for gas cooker,10m3    =    NIL
+Medium pressure regulator discharging classification ,ID
+Medium pressure regulator with no MIV fitted classification ,NCS
+Mp let by procedure,●turn off ecv ● hold open upso valve ● pressure to between 7-10mb  ● keeping upso valve open ● close upso valve ● open ecv fully ● test for 1 minute to test let by of upso valve
+What pressure does an upso valve shut gas off to mp regulator,14-15mb
+*classify* flue location in position that could let fumes into property and more than 10ppm detected inside propert,ID
+*classify* pipework suitable for gas but used in inappropriate location e.g cooker hose to hob or PE pipework used internally ,AR
+*classify* pipework located in unventilated duct or void,AR
+*classify* o/f appliance that required purpose provided ventilation where NONE is present,AR
+*classify* air vents for o/f appliance which have closable vents or screens,AR
+*classify* air/gas ratio valve with ratio over 0.008,ID
+*classify* air/gas ratio valve with ratio between 0.004-0.008,AR
+*classify* overall flue length exceeds M.I's,AR
+*classify* evidence of distress to combustible material e.g worktop next to cooker,AR
+*classify * appliance fitted to a sealed heating system without prv or overheat protection ,AR
+* classify * gas fire builders opening inadequately sealed,AR
+Ventilation for DFE ,100cm2
+*classify * dfe with no ventilation ,AR
+Does adventitious ventilation count with a DFE,No must have 100cm2 unless m.i's state
+Distance from side of cooker to worktop,20mm each side
+Distance from hob to combustibles,50mm
+What is distance 'A',760mm
+What is dimension 'B',460mm
+What is dimension 'C',50mm
+What is dimension 'D',300mm
+What is dimension 'E',20mm
+What is dimension 'A',610mm
+What is dimension 'B',150mm
+What is dimension 'C',20mm
+Giusp 26.9 (Ca) states,If its not practicable to examine either a boilers operating pressure or heat input its combustion performance can be used
+Regulation for gas meter with defective screen ,26.9 (Ca) If heat input can't be obtained....operating pressure can be used. Or combustion performance if neither can be obtained
+Tb118 process ,"1. Isolate 2. Safe to touch test ( pen on proving unit, sweep boiler and pipework , proving unit) 3.polarity test ( attach live neutral earth to boiler terminals,turn on power, switch to socket on tester) 4. Earth loop impedence 5.isolate power 6. Safe isolation test ( voltage tester to proving unit, earth-live,  earth - neutral, neutral - live, back to proving unit)"
+Earth loop impedance resistance,<1.8 ohms
+Safety alert 034,Ideal logic2 overheat stat
+Ideal logic2 safety alert number,Safety Alert 034
+Maximum ohm value of earth loop impedance ,200 ohms FAIL
+Tb003,Built over (unprotected) PE pipework 
+TB for built over PE pipework,TB 003
+Can PE pipework be 'built over',Only if it is in a metallic sheath built to prevent gas escaping into property should the pipe fail
+Unprotected PE pipework built over on a low pressure meter is classified as ....,AR But does NOT require isolation or warning sticker . Warning notice still to be filled
+Unprotected PE pipework built over on a medium pressure meter is classified as ....,"AR  DOES require isolation of ecv,warning notice filled and sticker as increased pressure creates increased risk"
+TB 004,Medium pressure meter boxes where cable or pipe enters property through back of box
+TB for Medium pressure meter boxes where cable or pipe enters property through back of box,TB 004
+TB regarding purge and combustion ventilation for cookers in internal kitchens with no direct to outside ventilation ,TB 005
+TB005,Purge and combustion Ventilation requirements for cookers in internal kitchens (this TB has been withdrawn refer to BS5440:2)
+TB 006,Testing positive pressure case seals
+TB for testing positive pressure case seals,TB 006
+Is a short section (one whole length) of flue allowed to pass through a void,Yes under TB008
+TB for flues in voids,TB008
+What size inspection hatches for flues in voids,300mm x 300mm 
+What are the screw adjusters called on air/gas ratio valve (max and min),Throttle = max Offset = minimum  TB 013
+TB and igem doc for fsd on cookers in flats,TB 015 / IGEM G/5
+Tb 015 states,Cookers with no fsd In flats is classed as ncs
+TB and BS for cooker clearances ,TB 022 AND BS6172
+TB 022 AND BS6172,Cooker clearances 
+Gas cooker hoses BS EN number,BS EN 14800
+BS 6172,"Specification for installation, maintenance and servicing for gas cooker appliances "
+How many starter blocks for a precast chimney,3
+Following on from a 'smell of gas' visit what is the permissable drop,0mb
+TB 055,Duties of landlords
+Duties of landlords TB,TB 055
+Open flue appliances under 14kw in rooms used for sleeping ,Can be used if they have suitable visitation sensing device BUT under section 3 of HSWA landlord has a duty of care and CAN choose to remove it 
+Can appliances be painted,"No ncs unless evidence of distress,scorching or strong odours then AR (TB 058)"
+How many turn 'from home' to reset worcester gas valve,7 3/4 throttle   2 1/2 offset
+Name the cables on a 2 port zone valve,Grey = permanent live  Brown= switch live from stat  Orange = switch live to boiler
+Maximum co and ratio for worcester greenstar 28i,Co 200ppm max  Ratio 0.0020
+Minimum fan pressure for worcester 28i junior,-4mb
+Maximum co2% on a flue integrity test,0.2% co2
+Flue distance to self closing air vent,A self closing air vent is not classed as an opening to a building unless stated by manufacturer 
+Worcester TB referring to burner seals,TB 1038a
+TB referring to gas rating smart meters,TB 112
+TB 112,Tb referring to gas rating smart meters
+How to convert M3/h to KW/H,M3/h x 10.76
+IGEM/G/13 states,All appliances must be ran on high load and still maintain 19-21mb wp
+TB referring to performing gas rates for 1 minute,TB 162
+TB 162,Gas rate can be performed for 1 minute
+Within how many days should a tennant receive their cp12 ,28 days
+Maximum gas load in KW on a low pressure supply ,65Kw
+*classify* cooker hose fitted wrong way round,AR
+Distance from flue to window opening (where the brickwork stops),150mm
+What should the wp be at the meter,Between 18.5mb - 23mb
+TB referring to Co and combustion ratio checks ,TB 143
+According to TB 143 what is the maximum Co and ratio considered 'safe' for air/gas ratio valve,350ppm or 0.004 (unless specified by M.I's)
+Do tenants own gas appliances have to be recorded on LGSR,It is not a requirement to be recorded by GSIUR
+IGEM document referring to unsafe situations,IGEM G11
+Does every gas system require bonding,"No, systems with PE service pipe may not require bondings as per IGEM G11"
+*classify* meter installation fitted with no regulator,ID
+*classify* meter and/or regulator showing signs of distress from i.e corrosive atmosphere or mechanical damage,AR
+*classify* pipework and/fittings of inappropriate material e.g hose or plumbing fittings,ID
+*classify* a non emergency situation where there is restricted access to eco or no handle on ecv,AR But does not require sticker or isolation
+*classify* No aecv fitted where one is required and no adequate access to ecv,AR
+*classify* Meter bank in flats with no ventilation,AR - turning off and stickers not required  IGEM G5
+What clearance is required around open flue appliance,5mm 
+Open flued appliance with inadequate clearance around appliance (minimum of 5mm),AR - if no signs of distress  ID - if signs of distress
+*classify* Open flue draught diverter completely enclosed or missing,AR 
+"*classify*  Incomplete or damaged chimney/flue or inadequate fixings/sealing, but where combustion products do not enter building",AR
+*classify* Flue terminating into semi enclosed area e.g covered passageway or ginnel following assessment to TB-007,AR - if there is a risk of co products entering property  ID - if co products above 10ppm detected inside
+*classify*  No means of inspecting full flue run,AR But refer to TB 008 to make sure no ID situations occur
+*classify*   missing air intake sample point,AR
+"*classify*  Appliance gas control or safety device that effect safe operation which are inoperative, failing to danger or disabled","ID  Examples include FSDs, regulators,high limit stat etc"
+Classify  Flueless or non room sealed appliance in bath or shower room,ID
+*classify*  Failure to achieve satisfactory combustion readings  on a flued and flueless appliance,"ID - flueless  AR - flued  (If co2 readings are unsatisfactory but aren't affecting the co reading, consult manufacturer)"
+co2 readings are unsatisfactory but aren't affecting the co reading,Consult manufacturer 
+*classify*  Evidence of heat damage to combustible material,AR
+*classify*  Appliance connected to sealed system with no PRV,AR  (IGEM G11) And GSIUR 7.13
+In an internal kitchen what is the minimum kitchen extractor ventilation where a cooker hood extracts to outside,30 l/s (Document F)
+In an internal kitchen what is the extractor ventilation rate for a cooker hood that does not extract directly to outside,60 l/s (document F)
+What is required in TB 118a,•safe to touch test •dead test Polarity test and earth loop impedance is not required
+What does IGEM G5 cover,Gas in multiple occupancy buildings
+What IGEM document covers gas in multiple occupancy buildings ,IGEM G5
+Worcester 4000 combustion co2%,Min   8 - 10.2%  Max 8.4 - 10.4%
+Baxi assure co2%,Min 8.1 - 8.6%   Max 8.8 - 9.3%
+What is BS6891,Installation of low pressure gas pipework upto 35mm
+"What are the main points of 26.9 (a),(b),(c),(Ca),(d)",(a) the effectiveness of any flue (b) The supply of combustion air (c) it's operating pressure or heat input (Ca) Where heat input or OP cannot be taken then it's combustion performance can be used (d) It's safe operation
+What is section (a) of 26.9,(a) the effectiveness of any flue 
+What is section (b) of 26.9,(b) the supply of combustion air
+What is section (c) of 26.9,(c) it's operating pressure or heat input
+What is section (Ca) of 26.9,"(Ca) Where not operating pressure or heat input can be obtained, then it's combustion performance can be used"
+What is section (d) of 26.9,(d) it's operation as to ensure it's safe operation 
+Which regulation refers to 'the 9 key checks',Regulation 36
+Explain the 9 key checks of Regulation 36,•date of inspection  •address of inspection  •landlord name and address. •description of and the location of each appliance  •any safety defects •any remedial work undertaken  •confirmation of 26.9 checks • name and signature of engineer •registration number of engineer and company
+How should ideal flues be sealed?,External wall must be sealed to fabric of building   Internal Wall doesn't matter
+Can ideal flue be fitted outside,No. No white should be visible externally 
+Can white be on show on a baxi assure,"No, no white can be visible externally "
+Does a baxi assure require a yearly strip service,Yes
+Can baxi assure be fitted under a carport?,Yes but recommended to use a plume management kit (page 32 of manual) 
+Clearance between terminal guard and flue,50mm
+Do Glow worm terminal flue lengths require a fall back to the boiler,"No,  ONLY terminal lengths have an inbuilt fall so can be installed level "
+Does an ultracom  require a yearly strip service ,Not if combustion checks are ok but does require strip service and g10 replacement every 5 years
+Can a flexicom flue be fitted under a carport,"No, ""installations in car ports are not recommended"" (Pg 10 of manual)"
+Does a flexicom require a yearly strip service,"Not if combustion checks are satisfactory, does not state frequency of strip service "
+Can a hxi/cxi/sxi be fitted in a carport,Yes (possibly 3 open sides)
+Does hxi/cxi/sxi require a yearly service ,Yes 
+How much fall on a flue,At least 1.5°
+Can baxi duotec be fitted in a carport,"No recommended, plume kit can be used but must extrude 200mm out of projection (different pressure zones not allowed)"
+Does baxi duotec HE A require annual strip service?,"""it is recommended annually""  ""When correct combustion readings cannot be achieved through adjustment, a full strip down must be performed """
+Does baxi duotec HE  require annual strip service?,If combustion performance and visual inspection is satisfactory then a full strip down is not required 
+Does duotec 2 require full strip down?,"""it is recommended annually"""
+Distance from pipework to electrical socket,25mm
+Expected resistance for immersion element,Between 15-25 ohms
+How far should a soakaway be fitted from building,500mm
+"British standard regarding installation,service and maintenance of gas cookers",BS 6172
+Technical bulletin for sealing flues,TB 152
+Flue gas sample point damaged but no evidence of leakage,"ID IGEM G11 (7.2) ""Point missing/damaged with no evidence of leakage of POC is still ID)"
+IGEM G11 (7.2),Missing or damaged flue sample point regardless of evidence of spillage is.... ID
+Tb referring to flexible cooker hoses to fixed hobs,TB 036
+Are cooker hoses to BS EN 14800 suitable for 2nd and 3rd (LPG) family gasses,Yes
+*classify* a fixed hob connected with a flexible cooker hose ,NCS  Refer to M.I's but if none present NCS
+What temperature are cooker hoses made to BS 14800 able to withstand ,60°C
+"What are 1st, 2nd and 3rd family gasses",1st - manufactured gasses 2nd - natural gas 3rd- LPG
+A cooking appliance should not be fitted in what room,Bath/shower room
+Unless it is a single burner hotplate...........,"Unless it is a single burner hotplate, a cooking appliance shall not be located in a bed sitting room of  volume less than 20m3"
+"Unless it is a single burner hotplate, a cooking appliance shall not be located in a bed sitting room of  volume less than........",20m3
+A built-in gas hob or oven shall be connected to the termination point by means of rigid pipework or............,"unless stated otherwise in the manufacturer’s instructions, by: a)	 a flexible connector and self-sealing plug-in device conforming to BS 669-1 or BS EN 14800 (see 11.4); or b) pliable corrugated stainless steel tube"
+Do baxi assure allow white on show ,"""no part of the air duct visible outside of the property"""
+Worcester TB for the sealing of horizontal flues,Tb-0153b
+What is the purge volume of an imperial meter?,0.35ft3
+What is the purge volume of a metric meter?,0.01m3
+What is usually the cause of meter regulator lock up during a tightness test?,Excessive pressure (eg 25mb)
+What will be the result of regulator lock up when conducting a tightness test?,Untested pipework from ecv to regulator 
+What is the clipping distance for 15mm pipework (horizontal and vertical),1.5m - horizontal  2m - vertical
+What is the clipping distance for 22mm pipework (horizontal and vertical),2m - horizontal  2.5m - vertical
+What is the minimum cable size for a heating installation ,0.75mm
+Within what time should a safety device on a cooker operate,60 seconds
+Within what time should a safety device on a hob operate,90 seconds
+Within what time should a safety device on a boiler operate,60 seconds 
+"If an upso valve is activated, how many times can a customer reset before contacting supplier?",Twice
+"In relation to boiler operation, why is earth continuity and resistance to earth important ",Can effect flame rectification 
+What is the ratio if air to gas required for complete combustion ,10 parts air to 1 part gas
+How much clearance is required below a gas fire spigot fitted to an unlined chimney ,250mm
+What is the minimum height requirement for a gas fire to be above combustible material ,225mm
+Why should an analyser be used on a clueless gas fire?,To test for damaged catalytic converter 
+Name the two main products of complete combustion ,Co2 and H2O
+Name the 3 main products of incomplete combustion ,"Co, Co2 and H2O"
+What is the minimum horizontal distance allowed between two flues ,300mm
+What is the minimum horizontal distance allowed from a flue to an openable window,300mm
+"If a flue terminates into a car port, how many sides should be open? (From Sam's questions)",2
+Where is the air for combustion taken from (vertex flue),Ventilated loft space
+What is the correct clipping distance on a twin wall flue system ,1.8m
+What is the maximum height for a low level air vent,450mm
+What in square centimetres is adventitious air equivalent to?,35cm2
+Ventilation requirements in cm2 for open glued appliances in a compartment vented to internal room ,10cm2 high level 20cm2 low level
+"Where an internal air vent communicates to another room, what height should it be fitted?",450mm
+What is passive stack ventilation ,Non mechanical property ventilation 
+How far from opening should a vent on a MP meter be away from an opening ,1m - any less is AR
+What is G20 & G31 gas,G20 - natural gas G31 - Propane

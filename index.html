@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lilac Flashcards App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f3fb;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      height: 100vh;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      color: #7e57c2;
+    }
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 30px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      width: 100%;
+      text-align: center;
+      margin: 20px 0;
+    }
+    .buttons {
+      display: flex;
+      justify-content: space-around;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    button {
+      background: #9575cd;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    button:hover {
+      background: #7e57c2;
+    }
+    #start-btn {
+      margin-top: 40px;
+    }
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Flashcards (Lilac SRS)</h1>
+  <div id="card" class="card hidden">
+    <div id="card-text">Click Start to begin</div>
+  </div>
+  <div class="buttons hidden" id="rating-buttons">
+    <button onclick="rateCard(1)">Again</button>
+    <button onclick="rateCard(2)">Hard</button>
+    <button onclick="rateCard(3)">Good</button>
+    <button onclick="rateCard(4)">Easy</button>
+  </div>
+  <button id="start-btn" onclick="startReview()">Start</button>
+  <script src="script.js"></script>
+</body>
+</html>
