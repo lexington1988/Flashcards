@@ -8,7 +8,6 @@ const ratingButtons = document.getElementById("rating-buttons");
 
 const CSV_URL = "https://lexington1988.github.io/flashcards/Flashcards.csv";
 
-
 function startReview() {
   if (!reviewing) {
     fetchCSV(CSV_URL).then((cards) => {
@@ -28,7 +27,7 @@ function fetchCSV(url) {
     .then((text) => {
       const rows = text.trim().split("\n").slice(1);
       return rows.map((row) => {
-        const [front, back] = row.split(/,(.+)/); // Support comma in back
+        const [front, back] = row.split(/,(.+)/);
         return {
           front: front.trim(),
           back: back.trim(),
@@ -83,23 +82,37 @@ function rateCard(quality) {
   const card = flashcards[currentCardIndex];
   const now = Date.now();
 
-  if (quality < 3) {
+  if (quality === 1) {
+    // Forgot – repeat again soon (e.g. 15 minutes later)
     card.repetitions = 0;
-    card.interval = 1;
+    card.interval = 0.01; // Same day review (~15 mins)
+    card.due = now + card.interval * 24 * 60 * 60 * 1000;
   } else {
-    card.repetitions += 1;
+    card.repetitions++;
+
     if (card.repetitions === 1) {
       card.interval = 1;
     } else if (card.repetitions === 2) {
-      card.interval = 6;
+      card.interval = 4;
     } else {
-      card.interval = Math.round(card.interval * card.ef);
+      let multiplier;
+      if (quality === 2) multiplier = 1.2; // Hard
+      else if (quality === 3) multiplier = card.ef; // Good
+      else if (quality === 4) multiplier = card.ef + 0.15; // Easy
+      else multiplier = card.ef;
+
+      card.interval = Math.round(card.interval * multiplier);
     }
-    card.ef += (0.1 - (5 - quality) * (0.08 + (5 - quality) * 0.02));
-    if (card.ef < 1.3) card.ef = 1.3;
+
+    // Adjust EF (except for Hard)
+    if (quality >= 3) {
+      card.ef += (0.1 - (5 - quality) * (0.08 + (5 - quality) * 0.02));
+      if (card.ef < 1.3) card.ef = 1.3;
+    }
+
+    card.due = now + card.interval * 24 * 60 * 60 * 1000;
   }
 
-  card.due = now + card.interval * 24 * 60 * 60 * 1000; // in ms
   saveProgress();
   showNextCard();
 }
