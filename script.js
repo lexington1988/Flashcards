@@ -6,7 +6,8 @@ const cardEl = document.getElementById("card");
 const cardText = document.getElementById("card-text");
 const ratingButtons = document.getElementById("rating-buttons");
 
-const CSV_URL = "https://yourusername.github.io/lilac-flashcards/Flashcards.csv"; // Change this!
+const CSV_URL = "https://lexington1988.github.io/flashcards/Flashcards.csv";
+
 
 function startReview() {
   if (!reviewing) {
@@ -98,7 +99,7 @@ function rateCard(quality) {
     if (card.ef < 1.3) card.ef = 1.3;
   }
 
-  card.due = now + card.interval * 24 * 60 * 60 * 1000;
+  card.due = now + card.interval * 24 * 60 * 60 * 1000; // in ms
   saveProgress();
   showNextCard();
 }
