@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lilac Flashcards App</title>
+  <title> Flashcards </title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -57,7 +57,7 @@
   </style>
 </head>
 <body>
-  <h1>Flashcards (Lilac SRS)</h1>
+  <h1>Flashcards</h1>
   <div id="card" class="card hidden">
     <div id="card-text">Click Start to begin</div>
   </div>
@@ -68,6 +68,8 @@
     <button onclick="rateCard(4)">Easy</button>
   </div>
   <button id="start-btn" onclick="startReview()">Start</button>
+  <input type="file" id="file-input" accept=".csv" />
+
   <script src="script.js"></script>
 </body>
 </html>
