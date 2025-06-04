@@ -1,3 +1,4 @@
+let cardsSeen = 0;
 let delayedCards = []; // cards to show again soon
 let allFlashcards = []; // Stores the full set from CSV
 let delayCounter = 0;
@@ -127,6 +128,7 @@ function saveProgress() {
 
 function showNextCard() {
   const now = Date.now();
+  const settings = getSettings();
 
   // Decrement delays for delayed cards
   delayedCards.forEach(obj => obj.delay--);
@@ -137,14 +139,28 @@ function showNextCard() {
     delayedCards = delayedCards.filter(obj => obj !== readyRetry);
     currentCardIndex = flashcards.indexOf(readyRetry.card);
   } else {
-    // Get next due card not yet completed
-    const dueCards = flashcards.filter(card => card.due <= now && !completedToday.has(card.id));
+    // Get due cards that haven't been completed today
+    let dueCards = flashcards.filter(card => card.due <= now && !completedToday.has(card.id));
+
+    // Enforce daily limit
+    if (settings.dailyLimit && dueCards.length > 0) {
+      const remaining = settings.dailyLimit - completedToday.size;
+      if (remaining <= 0) {
+        cardText.textContent = "🎉 You've reached your daily limit!";
+        ratingButtons.classList.add("hidden");
+        updateProgress();
+        return;
+      }
+      dueCards = dueCards.slice(0, remaining);
+    }
+
     if (dueCards.length === 0) {
       cardText.textContent = "🎉 All cards reviewed for now!";
       ratingButtons.classList.add("hidden");
       updateProgress();
       return;
     }
+
     currentCardIndex = flashcards.indexOf(dueCards[0]);
   }
 
@@ -152,29 +168,59 @@ function showNextCard() {
   cardText.textContent = flashcards[currentCardIndex].front;
   cardEl.onclick = toggleCard;
   updateProgress();
+  cardsSeen++;
+if (cardsSeen > 5) {
+  document.getElementById("flip-hint").style.display = "none";
+} else {
+  document.getElementById("flip-hint").style.display = "block";
 }
+
+}
+
 
 
 
 
 function updateProgress() {
   const now = Date.now();
-  const newCards = flashcards.filter(card => card.repetitions === 0 && card.due <= now && !completedToday.has(card.id)).length;
-  const reviewCards = flashcards.filter(card => card.repetitions > 0 && card.due <= now && !completedToday.has(card.id)).length;
   const settings = getSettings();
-let totalDue = newCards + reviewCards;
-if (settings.dailyLimit && totalDue > settings.dailyLimit) {
-  totalDue = settings.dailyLimit;
-}
 
-  progressEl.textContent = `New: ${newCards} | Review: ${reviewCards} | Left Today: ${totalDue}`;
-}
+  const newCards = flashcards.filter(
+    card => card.repetitions === 0 && card.due <= now && !completedToday.has(card.id)
+  ).length;
+
+  const reviewCards = flashcards.filter(
+    card => card.repetitions > 0 && card.due <= now && !completedToday.has(card.id)
+  ).length;
+
+  const delayedReviewCount = delayedCards.length;
+  const totalDue = newCards + reviewCards + delayedReviewCount;
+
+  const remaining = Math.max(0, settings.dailyLimit - completedToday.size);
+  const showDue = Math.min(totalDue, remaining);
+
+  progressEl.textContent = `New: ${newCards} | Review: ${reviewCards + delayedReviewCount} | Left Today: ${showDue}`;
+} // ✅ This closes updateProgress()
 
 function toggleCard() {
   showingFront = !showingFront;
   const card = flashcards[currentCardIndex];
-  cardText.textContent = showingFront ? card.front : card.back;
+
+  // Update the card content
+  cardText.innerHTML = showingFront ? card.front : card.back;
+
+  // Update the side label
+  document.getElementById("card-side-label").textContent = showingFront ? "Front" : "Back";
+
+  // Change text color for answer side
+  if (showingFront) {
+    cardText.classList.remove("purple-answer");
+  } else {
+    cardText.classList.add("purple-answer");
+  }
 }
+
+
 
 function rateCard(quality) {
   const card = flashcards[currentCardIndex];
