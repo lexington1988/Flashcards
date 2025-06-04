@@ -206,19 +206,23 @@ function toggleCard() {
   showingFront = !showingFront;
   const card = flashcards[currentCardIndex];
 
-  // Update the card content
-  cardText.innerHTML = showingFront ? card.front : card.back;
+  // Use textContent to avoid HTML parsing errors
+  cardText.textContent = showingFront ? card.front : card.back;
 
-  // Update the side label
-  document.getElementById("card-side-label").textContent = showingFront ? "Front" : "Back";
+  // Update the side label (optional: add this element if you want to show "Front"/"Back")
+  const sideLabel = document.getElementById("card-side-label");
+  if (sideLabel) {
+    sideLabel.textContent = showingFront ? "Front" : "Back";
+  }
 
-  // Change text color for answer side
+  // Toggle purple color for back
   if (showingFront) {
     cardText.classList.remove("purple-answer");
   } else {
     cardText.classList.add("purple-answer");
   }
 }
+
 
 
 
